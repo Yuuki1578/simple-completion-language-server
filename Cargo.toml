@@ -34,3 +34,6 @@ tracing-appender = "0.2"
 
 [dev-dependencies]
 test-log = { version = "0.2", default-features = false, features = ["trace"] }
+
+[profile.dev]
+opt-level = "s"
